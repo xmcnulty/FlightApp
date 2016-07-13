@@ -43,6 +43,10 @@ extension ViewController: GMSAutocompleteViewControllerDelegate {
         print("Place name: ", place.name)
         print("Place address: ", place.formattedAddress)
         print("Place attributions: ", place.attributions)
+        
+        // set the text of the origin text box
+        originEntry.text = place.name
+        
         self.dismissViewControllerAnimated(true, completion: nil)
     }
     

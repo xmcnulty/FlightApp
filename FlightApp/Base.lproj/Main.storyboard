@@ -24,6 +24,7 @@
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <action selector="originSelected:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="A9d-gG-n1f"/>
+                                    <action selector="originSelected:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="or2-Or-1GW"/>
                                 </connections>
                             </textField>
                         </subviews>
